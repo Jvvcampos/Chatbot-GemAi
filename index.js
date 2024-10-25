@@ -134,9 +134,11 @@ whatsappClient.on('message', async message => {
 
         message.reply(gemResponse);
     }
-        whatsappClient.initialize();
 
 });
+
+whatsappClient.initialize();
+
 
 /*const inactivityTimeout = 5 * 60 * 1000;
 
